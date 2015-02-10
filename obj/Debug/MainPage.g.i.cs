@@ -19,6 +19,8 @@ namespace Save_The_Humans
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
         private global::Windows.UI.Xaml.Controls.Button startButton; 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
+        private global::Windows.UI.Xaml.Controls.Canvas playArea; 
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
         private global::Windows.UI.Xaml.Controls.Button backButton; 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
         private global::Windows.UI.Xaml.Controls.TextBlock pageTitle; 
@@ -37,6 +39,7 @@ namespace Save_The_Humans
  
             pageRoot = (global::Windows.UI.Xaml.Controls.Page)this.FindName("pageRoot");
             startButton = (global::Windows.UI.Xaml.Controls.Button)this.FindName("startButton");
+            playArea = (global::Windows.UI.Xaml.Controls.Canvas)this.FindName("playArea");
             backButton = (global::Windows.UI.Xaml.Controls.Button)this.FindName("backButton");
             pageTitle = (global::Windows.UI.Xaml.Controls.TextBlock)this.FindName("pageTitle");
         }
